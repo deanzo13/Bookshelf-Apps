@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster+Two:ital,wght@1,700&family=Orelega+One&family=Pacifico&family=Philosopher:wght@400;700&family=Poppins:wght@100;200;700;800;900&family=Quicksand&family=Square+Peg&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    background-image: url("../img/bg.webp");
+}
+
+body, input, button {
+    font-family: 'Philosopher', sans-serif;
+}
+
+input, button {
+    font-size: 16px;
+}
+
+.logo{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.head_bar, .footer {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #61481C;  
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+
+}
+
+.input_section {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color : #F0D290;
+    border-radius: 10px;
+}
+
+.input_section > h2 {
+    text-align: center;
+    color: #61481C;
+}
+
+.input_section > form > .input {
+    margin: 8px 0;
+}
+
+.input_section > form > button {
+    background-color: #61481C;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.input_section > form > button > span {
+    font-weight: bold;
+}
+
+.input_section > form > .input > input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+.input_section > form > .input > label {
+    color: #61481C;
+    font-weight: bold;
+}
+
+.input_section > form > .input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.input_section > form > .input_inline > label {
+    color: #61481C;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.total_section {
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color : #F0D290;
+    border-radius: 10px;  
+    color: #1B1A17;
+}
+
+.card-stats{
+    padding: 16px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    border-radius: 10px;  
+}
+
+.search_section {
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    background-color : #F0D290;
+    border-radius: 10px;
+}
+
+.total-books > span {
+    font-size: 1.3rem;
+    color: #1B1A17;
+}
+
+.total-bools > h2 {
+    font-weight: 600;
+    color: #1B1A17;
+}
+
+.search_section > h2 {
+    color: #61481C;
+}
+
+.search_section > form {
+    padding: 16px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-gap: 10px;
+}
+
+.search_section > form > input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search_section > form > button {
+    background-color: #61481C;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book_shelf {
+    margin: 16px 0 0 0;    
+    background-color : #F0D290;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.book_shelf > h2 {
+    color: #61481C;
+}
+
+.book_shelf > .book_list {
+    padding: 16px;
+}
+
+.book_shelf > .book_list > .book_item {
+    background-color: #F1F2F2;
+    color: #1B1A17;
+    padding: 8px 16px 16px 16px;
+    border-left: 5px solid #61481C;
+    margin: 10px 0;
+}
+
+.book_shelf > .book_list > .book_item > h3, p {
+    margin: 8px 0;
+    color: #1B1A17;
+}
+
+.book_shelf > .book_list > .book_item > .action > button {
+    border: 0;
+    padding: 5px;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book_shelf > .book_list > .book_item > .action > .green {
+    background-color: #006400;
+    color: white;
+}
+
+.book_shelf > .book_list > .book_item > .action > .red {
+    background-color: #8B0000;
+    color: white;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+  }
+
+.action{
+    border-radius: 16px;
+    margin-top: 16px;
+    padding: 12px 24px 12px 0px;
+}
+
+::placeholder{
+    font-style: italic;
+}
