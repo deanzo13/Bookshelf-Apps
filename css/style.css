@@ -28,7 +28,7 @@ input, button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #332421;  
+    background: #61481C;  
     color: white;
 }
 
@@ -58,7 +58,7 @@ main {
 }
 
 .input_section > form > button {
-    background-color: #332421;
+    background-color: #61481C;
     color: white;
     border: 0;
     border-radius: 5px;
@@ -153,7 +153,7 @@ main {
 }
 
 .search_section > form > button {
-    background-color: #332421;
+    background-color: #61481C;
     color: white;
     border: 0;
     border-radius: 5px;
@@ -234,7 +234,7 @@ main {
     }
 
     .total-books > span {
-        font-size: .8rem;
+        font-size: 1rem;
         color: #1B1A17;
     }
 
@@ -244,5 +244,15 @@ main {
     
     h2 {
         font-size: 1.3rem;
+    }
+
+    .card-stats{
+        text-align: center;
+        padding: 10;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
+        border-radius: 10px;  
     }
   }
