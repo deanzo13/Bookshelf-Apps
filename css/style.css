@@ -219,3 +219,30 @@ main {
 ::placeholder{
     font-style: italic;
 }
+
+@media only screen and (max-width: 600px) {
+    main {
+      width: 95%;
+      margin: 0 auto;
+      padding: 16px;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    input, button {
+        font-size: 14px;
+    }
+
+    .total-books > span {
+        font-size: 1rem;
+        color: #1B1A17;
+    }
+
+    .footer {
+        font-size: .6rem;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+    }
+  }
