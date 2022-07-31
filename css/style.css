@@ -234,7 +234,7 @@ main {
     }
 
     .total-books > span {
-        font-size: 1rem;
+        font-size: .8rem;
         color: #1B1A17;
     }
 
