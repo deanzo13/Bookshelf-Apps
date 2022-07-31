@@ -94,11 +94,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const inCompleted = document.createElement('button');
     inCompleted.classList.add('green');
-    inCompleted.innerText='Belum Selesai Dibaca';
+    inCompleted.innerText='Belum Selesai';
 
     const completed = document.createElement('button');
     completed.classList.add('green');
-    completed.innerText='Selesai Dibaca';
+    completed.innerText='Selesai';
 
     completed.addEventListener('click', function() {
        addBookToCompleted(bookItem.id);
