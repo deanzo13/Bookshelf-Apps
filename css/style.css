@@ -139,13 +139,13 @@ main {
     color: #61481C;
 }
 
-/* .search_section > form {
+.search_section > form {
     padding: 16px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 0.5fr;
     grid-gap: 10px;
-} */
+}
 
 .search_section > form > input {
     padding: 5px;
@@ -255,4 +255,12 @@ main {
         grid-gap: 5px;
         border-radius: 10px;  
     }
+    
+    .search_section > form {
+    padding: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-gap: 5px;
+}
   }
