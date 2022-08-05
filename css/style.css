@@ -240,6 +240,7 @@ main {
 
     .footer {
         font-size: .7rem;
+        height : 80px;
     }
     
     h2 {
